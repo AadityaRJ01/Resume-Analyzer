@@ -21,7 +21,7 @@ export default function Home() {
 
       </div>
     </section>
-    <div className="resume-cards-container">
+    <div className="resume-cards-container flex gap-4 flex-wrap">
       {resumes.map((resume)=>(
         <ResumeCard key={resume.id} resume={resume} />
       ))}
